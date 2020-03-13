@@ -39,7 +39,7 @@ def total_gross(source)
   directors_totals(source).each do  |key, value| 
     
       grand_total += value 
-    end 
+
   end
   grand_total 
 end
